@@ -3,7 +3,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const API_BASE =
-  process.env.REACT_APP_API_BASE_URL || 10.1.10.134:8000;
+  process.env.REACT_APP_API_BASE_URL || "http://10.1.10.134:8000";
+
 
 export default function UploadForm() {
   const [studentName, setStudentName] = useState("");
